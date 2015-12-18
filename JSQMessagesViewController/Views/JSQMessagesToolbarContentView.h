@@ -111,6 +111,10 @@ FOUNDATION_EXPORT const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingD
  */
 @property (weak, nonatomic, readonly) UIView *rightBarButtonContainerView;
 
+@property (weak, nonatomic) UILabel *leftBarContentLabel;
+
+@property (weak, nonatomic) UILabel *rightBarContentLabel;
+
 #pragma mark - Class methods
 
 /**
